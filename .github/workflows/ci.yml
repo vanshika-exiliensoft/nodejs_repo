@@ -18,7 +18,5 @@ jobs:
     with:
       language: auto
       app_directory: .
-      node_version: "22"
-      python_version: "3.12"
-      java_version: "17"
-      php_version: "8.3"
+      version: "24"
+      

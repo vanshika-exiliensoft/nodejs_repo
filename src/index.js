@@ -3,5 +3,6 @@ function getMessage() {
 }
 
 console.log(getMessage());
+console.log("Hello Node JS")
 
 module.exports = { getMessage };

@@ -19,4 +19,4 @@ jobs:
     with:
       language: nodejs
       app_directory: "."
-      node_version: "24"
+      version: "24"

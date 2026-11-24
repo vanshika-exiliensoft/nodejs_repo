@@ -18,5 +18,5 @@ jobs:
     with:
       language: auto
       app_directory: .
-      nodejs_version: "24"
+      node_version: "24"
       

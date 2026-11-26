@@ -1,10 +1,8 @@
 
 module.exports = {
   branches: [
-    {
-      name: 'develop',
-      prerelease: 'beta'
-    },
+    'develop',
+
     {
       name: 'improvenment-comment-add',
       prerelease: 'alpha'

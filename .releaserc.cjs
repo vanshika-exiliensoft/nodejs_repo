@@ -1,7 +1,14 @@
 
 module.exports = {
   branches: [
-    'develop'
+    {
+      name: 'develop',
+      prerelease: 'beta'
+    },
+    {
+      name: 'improvenment-comment-add',
+      prerelease: 'alpha'
+    }
   ],
 
   tagFormat: 'v${version}',

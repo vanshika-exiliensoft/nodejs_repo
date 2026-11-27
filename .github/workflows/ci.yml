@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - develop
+      - feat-docker-multi-cloud-deployment
 
   pull_request:
     branches:

@@ -13,7 +13,7 @@ jobs:
   nodejs-ci:
     name: Run Centralized Node.js Pipeline
 
-    uses: vanshika-exiliensoft/Multilanguage-pipeline/.github/workflows/centralized-pipeline.yml@develop
+    uses: vanshika-exiliensoft/Multilanguage-pipeline/.github/workflows/centralized-pipeline.yml@feat-gcp/aws-terraform
 
     with:
       language: auto

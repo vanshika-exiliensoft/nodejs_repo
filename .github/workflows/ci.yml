@@ -11,9 +11,16 @@ on:
     branches:
       - develop
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  security-events: write
+  id-token: write
+
 jobs:
   nodejs-ci:
-    name: Run Centralized Node.js Pipeline
+    name: Run Centralized Multi-Language Pipeline
 
     uses: vanshika-exiliensoft/Multilanguage-pipeline/.github/workflows/centralized-pipeline.yml@feat-gcp/aws-terraform
 
@@ -21,3 +28,4 @@ jobs:
       language: auto
       app_directory: .
       version: "24"
+      deploy_to_aws: true

@@ -6,7 +6,7 @@ module.exports = {
       prerelease: 'beta'
     },
     {
-      name: 'improvenment-comment-add',
+      name: 'improvement-comment-add',
       prerelease: 'alpha'
     }
   ],

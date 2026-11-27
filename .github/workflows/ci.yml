@@ -1,10 +1,11 @@
+
 name: Node.js CI Pipeline
 
 on:
   push:
     branches:
       - develop
-      - feat-docker-multi-cloud-deployment
+      - feat-docker-multicloud-deployment
 
   pull_request:
     branches:
@@ -20,4 +21,3 @@ jobs:
       language: auto
       app_directory: .
       version: "24"
-      
